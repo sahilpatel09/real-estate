@@ -29,10 +29,10 @@
     <div class="flex flex-wrap md:-m-2 -m-1">
       <div class="flex flex-wrap w-1/2">
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://img.staticmb.com/mbimages/project/Photo_h310_w462/2020/01/29/Project-Photo-9-Samyak-49-Ahmedabad-5132013_545_1050_310_462.jpg">
         </div>
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://is1-3.housingcdn.com/012c1500/00e08a0fed7977a7becd8cbe001fbf7d/v0/medium.jpeg">
         </div>
         <div class="md:p-2 p-1 w-full">
           <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://newprojects.99acres.com/projects/unknown/samyak_49/images/gyoh97fz.jpg">
@@ -40,13 +40,13 @@
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="md:p-2 p-1 w-full">
-          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://newprojects.99acres.com/projects/unknown/samyak_49/images/gic02wqp_optOrig.jpg">
         </div>
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://teja12.kuikr.com/is/a/c/880x425/gallery_images/original/cf5d2d658495a7f.gif">
         </div>
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://is1-2.housingcdn.com/01c16c28/4ab28d8143ddc3f8d194fab77089d61f/v0/medium/3_bhk_apartment-for-sale-navrangpura-Ahmedabad-hall.jpg">
         </div>
       </div>
     </div>
@@ -60,6 +60,13 @@
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+    </div>
+    <div class="md:-m-2 -m-1">
+      <div class="">
+        <div class="md:p-4 p-2">
+          <img alt="gallery" width="900px" class="mx-auto object-cover h-full object-center block" src="https://projectcdn.99acres.com/project_data/debd75/block2_96194/3D/47066_B2_1F1_3D.jpg">
+        </div>
+      </div>
     </div>
 <!--     <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> -->
   </div>
