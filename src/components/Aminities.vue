@@ -64,7 +64,12 @@
     <div class="md:-m-2 -m-1">
       <div class="">
         <div class="md:p-4 p-2">
-          <img alt="gallery" width="900px" class="mx-auto object-cover h-full object-center block" src="https://projectcdn.99acres.com/project_data/debd75/block2_96194/3D/47066_B2_1F1_3D.jpg">
+          <div class="con">
+            <div class="dot dot1" title="Entrance"></div>
+            <div class="dot dot2"></div>
+            <div class="dot dot3"></div>
+            <img alt="gallery" class="mx-auto object-cover h-full object-center block" src="https://projectcdn.99acres.com/project_data/debd75/block2_96194/3D/47066_B2_1F1_3D.jpg">           
+          </div>
         </div>
       </div>
     </div>
@@ -98,5 +103,37 @@
     transform: rotateX(20deg);
 
    }
+}
+
+.con {
+  position: relative;
+}
+
+.dot {
+  background: darkorange;
+  border-radius: 50%;
+  height: 15px;
+  position: absolute;
+  width: 15px;
+}
+
+.dot1 {
+  top: 32%;
+  left: 10%;
+}
+
+
+.dot2 {
+  top: 30%;
+  right: 20%;
+}
+
+.dot3 {
+  bottom: 40%;
+  left: 50%;
+}
+
+img {
+  width: 100%;
 }
 </style>
