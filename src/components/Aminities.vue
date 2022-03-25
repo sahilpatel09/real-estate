@@ -27,7 +27,7 @@
       <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
     </div>
     <div class="flex flex-wrap md:-m-2 -m-1">
-      <div class="flex flex-wrap w-1/2">
+      <div class="flex md:flex-wrap w-1/2">
 
         <div class="md:p-2 p-1 w-1/2 image-card relative">
           <img alt="gallery" class="w-full object-cover h-full object-center block transition duration-300" src="https://img.staticmb.com/mbimages/project/Photo_h310_w462/2020/01/29/Project-Photo-9-Samyak-49-Ahmedabad-5132013_545_1050_310_462.jpg">
@@ -79,14 +79,20 @@
   </div>
 </section>
 
-<section class="text-gray-600 body-font bg-white">
+
+
+
+
+<!-- Solar panel -->
+
+<!-- <section class="text-gray-600 body-font bg-white">
   <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img class="object-cover object-center rounded" alt="hero" src="https://cdn.shopify.com/s/files/1/2980/5140/products/Loomsolar1panelstand_180watts__1.jpg?v=1610514587">
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">We use Solar Panel
-        <!-- <br class="hidden lg:inline-block"> -->readymade gluten
+        <br class="hidden lg:inline-block">readymade gluten
       </h1>
       <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
       <div class="flex justify-center">
@@ -94,8 +100,7 @@
       </div>
     </div>
   </div>
-</section>
-
+</section>-->
 
 
 
