@@ -28,26 +28,40 @@
     </div>
     <div class="flex flex-wrap md:-m-2 -m-1">
       <div class="flex flex-wrap w-1/2">
-        <div class="md:p-2 p-1 w-1/2">
+
+        <div class="md:p-2 p-1 w-1/2 image-card relative">
           <img alt="gallery" class="w-full object-cover h-full object-center block transition duration-300" src="https://img.staticmb.com/mbimages/project/Photo_h310_w462/2020/01/29/Project-Photo-9-Samyak-49-Ahmedabad-5132013_545_1050_310_462.jpg">
+          <div class="bottom">Gym Area
+          </div>
         </div>
 
-        <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://is1-3.housingcdn.com/012c1500/00e08a0fed7977a7becd8cbe001fbf7d/v0/medium.jpeg">
+        <div class="md:p-2 p-1 w-1/2 image-card relative">
+          <img alt="gallery" 
+          class="w-full object-cover h-full object-center" src="https://is1-3.housingcdn.com/012c1500/00e08a0fed7977a7becd8cbe001fbf7d/v0/medium.jpeg">
+          <div class="bottom">Dining
+          </div>
         </div>
-        <div class="md:p-2 p-1 w-full">
-          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://newprojects.99acres.com/projects/unknown/samyak_49/images/gyoh97fz.jpg">
+        <div class="md:p-2 p-1 w-full image-card relative">
+          <img alt="gallery" class="w-full object-cover h-full object-center" src="https://newprojects.99acres.com/projects/unknown/samyak_49/images/gyoh97fz.jpg">
+          <div class="bottom">Playground
+          </div>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
-        <div class="md:p-2 p-1 w-full">
+        <div class="md:p-2 p-1 w-full relative image-card">
           <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://newprojects.99acres.com/projects/unknown/samyak_49/images/gic02wqp_optOrig.jpg">
+          <div class="bottom">Dining Area
+          </div>
         </div>
-        <div class="md:p-2 p-1 w-1/2">
+        <div class="md:p-2 p-1 w-1/2 image-card relative">
           <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://teja12.kuikr.com/is/a/c/880x425/gallery_images/original/cf5d2d658495a7f.gif">
+          <div class="bottom">Entrance 
+          </div>
         </div>
-        <div class="md:p-2 p-1 w-1/2">
+        <div class="md:p-2 p-1 w-1/2 image-card relative">
           <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://is1-2.housingcdn.com/01c16c28/4ab28d8143ddc3f8d194fab77089d61f/v0/medium/3_bhk_apartment-for-sale-navrangpura-Ahmedabad-hall.jpg">
+          <div class="bottom">Living Room
+          </div>
         </div>
       </div>
     </div>
@@ -76,7 +90,7 @@
       </h1>
       <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Gallery</button>
+        <button class="inline-flex text-white bg-wine border-0 py-2 px-6 focus:outline-none rounded text-lg">Gallery</button>
       </div>
     </div>
   </div>
@@ -110,46 +124,24 @@
    }
 }
 
-.con {
-  position: relative;
+
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
 
-.dot {
-  background: darkorange;
-  border-radius: 50%;
-  height: 15px;
-  position: absolute;
-  width: 15px;
+.image-card:hover img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
-
-.dot1 {
-  top: 32%;
-  left: 10%;
-}
-
-
-.dot2 {
-  top: 30%;
-  right: 20%;
-}
-
-.dot3 {
-  bottom: 40%;
-  left: 50%;
-}
-
-img {
-  width: 100%;
-}
-
-div[title]:hover::after {
-  content: attr(title);
-  position: absolute;
-  top: -100%;
-  background: red;
+.bottom {
+  bottom: 8px;
+  left: 10px;
+  padding: 8px;
   color: white;
-  padding: 3px;
-  left: 0;
+  position: absolute;
+  background: #722F37;;
+  font-weight: 600;
 }
 
 </style>
