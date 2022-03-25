@@ -1,7 +1,10 @@
 <template>
-<Header />
+<Newhead />
+<Aminities />
 </template>
 
 <script setup>
-import Header from '../components/Header.vue'
+import Aminities from '../components/Aminities.vue'
+import Newhead from '../components/Header_new.vue'
+
 </script>
