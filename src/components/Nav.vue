@@ -15,60 +15,74 @@
             </div>
             <!-- Primary Navbar items -->
             <div class="hidden md:flex items-center space-x-1 text-white">
-              <a
-                href=""
-                class="
+              <router-link to="/" class="
                   py-2
                   px-2
                   text-white
-                  border-b-4 border-wine
                   font-semibold
-                "
-                >Home</a
-              >
-              <a
-                href=""
-                class="
-                  py-4
-                  px-2
-                  font-semibold
-                  hover:text-green-500
+                  hover:text-gray-200
                   transition
                   duration-300
-                "
-                >Services</a
-              >
-              <a
-                href=""
-                class="
-                  py-4
+                ">Home</router-link>
+
+                <router-link to="/about" class="
+                  py-2
                   px-2
+                  text-white
                   font-semibold
-                  hover:text-green-500
+                  hover:text-gray-200
                   transition
                   duration-300
-                "
-                >About</a
-              >
-              <a
-                href=""
-                class="
-                  py-4
+                ">About</router-link>
+
+                <router-link to="/aminities" class="
+                  py-2
                   px-2
+                  text-white
                   font-semibold
-                  hover:text-green-500
+                  hover:text-gray-200
                   transition
                   duration-300
-                "
-                >Contact Us</a
-              >
+                ">Aminities</router-link>
+
+                <router-link to="/gallery" class="
+                  py-2
+                  px-2
+                  text-white
+                  font-semibold
+                  hover:text-gray-200
+                  transition
+                  duration-300
+                ">Gallery</router-link>
+
+                <router-link to="/blog" class="
+                  py-2
+                  px-2
+                  text-white
+                  font-semibold
+                  hover:text-gray-200
+                  transition
+                  duration-300
+                ">Blog</router-link>
+
+                <router-link to="/contact-us" class="
+                  py-2
+                  px-2
+                  text-white
+                  font-semibold
+                  hover:text-gray-200
+                  transition
+                  duration-300
+                ">Contact</router-link>
+
+
             </div>
           </div>
           <!-- Secondary Navbar items -->
           <div class="hidden md:flex items-center space-x-3">
             
             <a
-              href=""
+              href="/download"
               class="
                 py-2
                 px-4
@@ -76,11 +90,29 @@
                 text-white
                 bg-wine
                 rounded
-                hover:bg-gray-700
+                hover:bg-yellow-500
                 transition
                 duration-300
+                shadow-2xl
               "
               >Brochure</a
+            >
+                        <a
+              href="/inquire-us"
+              class="
+                py-2
+                px-4
+                font-medium
+                text-white
+                bg-wine
+                rounded
+                hover:bg-yellow-500
+                transition
+                duration-300
+                rounded
+                shadow-2xl
+              "
+              >Inquire us</a
             >
           </div>
           <!-- Mobile menu button -->
@@ -104,73 +136,98 @@
       </div>
       <!-- mobile menu -->
       <div class="mobile-menu" :class="{ 'hidden': isOpen }">
-        <ul class="">
+        <ul class="overlay">
+          
           <li class="active">
-            <a
-              href="index.html"
-              class="
-                block
+            <router-link to="/" class="block
                 text-sm
                 px-4
                 py-4
                 text-white
-                bg-green-500
-                font-semibold
-              "
-              >Home</a
-            >
+                font-semibold">
+              Home
+            </router-link>
           </li>
-          <li>
-            <a
-              href="#services"
-              class="
-                block
-                text-sm
-                px-4
-                py-4
-                text-white
-                bg-green-500
-                hover:bg-indigo-500
-                transition
-                duration-300
-              "
-              >Services</a
-            >
-          </li>
-          <li>
-            <a
-              href="#about"
-              class="
-                block
-                text-sm
-                px-4
-                py-4
-                hover:bg-indigo-500
-                text-white
-                bg-green-500
 
-                transition
-                duration-300
-              "
-              >About</a
-            >
-          </li>
           <li>
-            <a
-              href="#contact"
-              class="
-                block
+            <router-link to="/about" class="block
                 text-sm
                 px-4
                 py-4
-                hover:bg-indigo-500
                 text-white
-                bg-green-500
-                transition
-                duration-300
-              "
-              >Contact Us</a
-            >
+                font-semibold">
+              About
+            </router-link>
+          </li>
+
+          <li>
+            <router-link to="/aminities" class="block
+                text-sm
+                px-4
+                py-4
+                text-white
+                font-semibold">
+              Aminities
+            </router-link>
+          </li>
+
+          <li>
+            <router-link to="/gallery" class="block
+                text-sm
+                px-4
+                py-4
+                text-white
+                font-semibold">
+              Gallery
+            </router-link>
+          </li>
+          
+          <li>
+            <router-link to="/blog" class="block
+                text-sm
+                px-4
+                py-4
+                text-white
+                font-semibold">
+              Blog
+            </router-link>
+          </li>
+
+          <li>
+            <router-link to="/contact-us" class="block
+                text-sm
+                px-4
+                py-4
+                text-white
+                font-semibold">
+              Contact Us
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/download" class="block
+                text-sm
+                px-4
+                py-4
+                bg-wine
+                text-white
+                hover:bg-yellow-500
+                transition duration-300
+                font-semibold">
+              Brochure
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/inquire-us" class="block
+                text-sm
+                px-4
+                py-4
+                bg-wine
+                text-white
+                hover:bg-yellow-500
+                transition duration-300
+                font-semibold">
+              Inquire us
+            </router-link>
           </li>
         </ul>
       </div>

@@ -1,0 +1,1 @@
+<template><h2>Aminities</h2></template>
