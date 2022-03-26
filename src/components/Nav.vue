@@ -135,9 +135,9 @@
         </div>
       </div>
       <!-- mobile menu -->
-      <div class="mobile-menu" :class="{ 'hidden': isOpen }">
-        <ul class="overlay">
-          
+      <div class="mobile-menu fadeInDown" :class="{ 'hidden': isOpen }">
+        <ul class="mobile-menu-overlay">
+        
           <li class="active">
             <router-link to="/" class="block
                 text-sm
@@ -239,3 +239,36 @@ import { ref } from 'vue'
 const isOpen = ref(true)
 
 </script>
+<style>
+.mobile-menu-overlay {
+  background: rgba(0,0,0,0.4);
+  background-size: 3px 3px;
+  z-index: 2;
+}
+@-webkit-keyframes fadeInDown {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateY(-20px);
+            }
+            100% {
+               opacity: 1;
+               -webkit-transform: translateY(0);
+            }
+         }
+         
+         @keyframes fadeInDown {
+            0% {
+               opacity: 0;
+               transform: translateY(-20px);
+            }
+            100% {
+               opacity: 1;
+               transform: translateY(0);
+            }
+         }
+         
+         .fadeInDown {
+            -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown;
+         }
+</style>
