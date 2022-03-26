@@ -7,8 +7,16 @@
 	<div class="overlay">
 	<div class="py-3 px-3 md:px-16">
     <Head/>
-    <div class="flex items-center justify-center">
-    <h1>Luxurious Living</h1>
+<!--     <h1 class="text-white text-9xl vibes">Luxurious Living</h1> -->
+    <div class="flex items-center justify-center w-max-lg h-screen">
+    <div class="text-center lg:w-3/4 w-full">
+          <h1 class="text-5xl md:text-8xl mb-2 font-medium text-white vibes ">Luxurious Living, Redefined.</h1>
+          <p class="leading-relaxed mb-8 text-gray-200 lg:w-2/3 mx-auto mon">3 BHK Luxurious apartments near you in Navarangpura. Samyak49 is the one of the modern and nice to decore flats in the Ahmedabad.</p>
+          <div class="flex justify-center">
+<!--             <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Button</button>
+            <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button> -->
+          </div>
+        </div>
 </div>
 	</div>		
 	</div>
@@ -50,5 +58,8 @@ import Head from './Nav.vue'
 }
 .border-wine {
 border-bottom: 4px solid #39181c;
+}
+.vibes{
+	font-family: 'Great Vibes', cursive;
 }
 </style>
