@@ -1,11 +1,15 @@
 <template>
 <header id="header" class=""><div class="relative">
-	<video class="video-background" autoplay>
+
+	<video class="video-background" autoplay="autoplay" muted>
 		<source src="@/assets/homepage.mp4" type="video/mp4">
 	</video>
 	<div class="overlay">
 	<div class="py-3 px-3 md:px-16">
     <Head/>
+    <div class="flex items-center justify-center">
+    <h1>Luxurious Living</h1>
+</div>
 	</div>		
 	</div>
 	</div>
@@ -40,6 +44,9 @@ import Head from './Nav.vue'
 }
 .bg-wine {
 	background:#722F37;
+}
+.bg-wine-dark{
+	background: #2e1316;
 }
 .border-wine {
 border-bottom: 4px solid #39181c;
