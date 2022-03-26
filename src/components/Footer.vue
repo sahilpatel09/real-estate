@@ -1,6 +1,6 @@
 <template>
 	<footer class="text-gray-600 body-font bg-wine">
-  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+  <div class="container px-20 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <img src="@/assets/invert.png" class="" />
@@ -83,9 +83,9 @@
 
     </div>
   </div>
-  <div class="bg-wine-dark">
+  <div class="bg-wine-dark px-20">
     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="text-white text-sm text-center sm:text-left">© {{ new Date().getFullYear()}} SAMYAK49 — All Rights Reserved.
+      <p class="text-white text-sm text-center sm:text-left">© {{ new Date().getFullYear() }} SAMYAK49 — All Rights Reserved.
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
         <a class="text-gray-200">

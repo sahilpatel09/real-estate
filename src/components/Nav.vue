@@ -245,6 +245,7 @@ const isOpen = ref(true)
   background-size: 3px 3px;
   z-index: 2;
 }
+
 @-webkit-keyframes fadeInDown {
             0% {
                opacity: 0;
@@ -270,5 +271,9 @@ const isOpen = ref(true)
          .fadeInDown {
             -webkit-animation-name: fadeInDown;
             animation-name: fadeInDown;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
          }
 </style>
