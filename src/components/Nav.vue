@@ -144,6 +144,7 @@
                 px-4
                 py-4
                 text-white
+                hover:bg-yellow-500
                 font-semibold">
               Home
             </router-link>
@@ -155,6 +156,7 @@
                 px-4
                 py-4
                 text-white
+                hover:bg-yellow-500
                 font-semibold">
               About
             </router-link>
@@ -166,6 +168,7 @@
                 px-4
                 py-4
                 text-white
+                hover:bg-yellow-500
                 font-semibold">
               Aminities
             </router-link>
@@ -177,6 +180,7 @@
                 px-4
                 py-4
                 text-white
+                hover:bg-yellow-500
                 font-semibold">
               Gallery
             </router-link>
@@ -188,6 +192,7 @@
                 px-4
                 py-4
                 text-white
+                hover:bg-yellow-500
                 font-semibold">
               Blog
             </router-link>
@@ -199,6 +204,7 @@
                 px-4
                 py-4
                 text-white
+                hover:bg-yellow-500
                 font-semibold">
               Contact Us
             </router-link>

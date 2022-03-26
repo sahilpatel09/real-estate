@@ -1,5 +1,8 @@
 <template>
-<Head/>
+  <UniHead herotitle="About us"
+  herotext="3 BHK Luxurious apartments near you in Navarangpura. Samyak49 is the one of the modern and nice to decore flats in the Ahmedabad."
+  heroimage="living.jpeg"
+  />
 <div class="md:px-16 py-4 bg-white">
   <!-- <h2 class="text-3xl pl-5 mt-10 mon text-center md:text-left">About the project.</h2> -->
 
@@ -29,7 +32,9 @@
   </div>
 </section>
 </div>
+<Footer/>
 </template>
 <script setup>
-import Head from '../components/GlobalHead.vue'
+import UniHead from '../components/UniversalHead.vue'
+import Footer from '../components/Footer.vue'
 </script>
