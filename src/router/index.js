@@ -22,6 +22,11 @@ const routes = [
     name: 'Inquire-us',
     component: () => import(/* webpackChunkName: "about" */ '../views/Appointment.vue')
   },
+    {
+    path: '/download',
+    name: 'Download',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Appointment.vue')
+  },
   {
     path: '/blog',
     name: 'Blog',

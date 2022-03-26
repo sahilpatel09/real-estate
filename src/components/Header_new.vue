@@ -1,6 +1,6 @@
 <template>
 <header id="header" class=""><div class="">
-	<video class="video-background" src="https://res.cloudinary.com/sahil-patel/video/upload/v1648198594/samyak49/eo_30,so_4/video_imnxz4.mp4" autoplay></video>
+	<video  class="video-background" src="@/assets/homepage.mp4" autoplay loop></video>
 <!-- <img src="@/assets/living.jpeg" class="video-background"> -->
 	<div class="overlay">
 	<div class="py-3 px-3 md:px-16">
