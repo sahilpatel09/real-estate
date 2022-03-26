@@ -1,7 +1,8 @@
 <template>
-<header id="header" class=""><div class="">
-	<video  class="video-background" src="@/assets/homepage.mp4" autoplay loop></video>
-<!-- <img src="@/assets/living.jpeg" class="video-background"> -->
+<header id="header" class=""><div class="relative">
+	<video class="video-background" autoplay>
+		<source src="@/assets/homepage.mp4" type="video/mp4">
+	</video>
 	<div class="overlay">
 	<div class="py-3 px-3 md:px-16">
     <Head/>
@@ -19,7 +20,7 @@ import Head from './Nav.vue'
 .video-background { /* class name used in javascript too */
     width: 100%; /* width needs to be set to 100% */
     height: 100vh; /* height needs to be set to 100% */
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     z-index: -1;
