@@ -25,6 +25,8 @@
               {{ item.name }}</td>
               <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm text-left">
                 {{ item.size }}
+                <br>
+                <span v-if="item.newSize">{{ item.newSize }} (UNIT - 103) </span>
               </td>
             </tr>
             
@@ -76,7 +78,8 @@ const tableData = ref({
     7:{
     id: '405',
     name: "Guest Bedroom 1",
-    size: "12'0'' x 11'0''"
+    size: "12'0'' x 11'0''",
+    newSize:"12'0'' x 13'0''"
   },
     8 :{
     id: '06',
@@ -86,7 +89,8 @@ const tableData = ref({
     9 :{
     id: '07',
     name: "Master Bedroom 2",
-    size: "11'0'' x 15'0''"
+    size: "11'0'' x 15'0''",
+    newSize: "11'0'' x 13'0''"
   },
     10 :{
     id: '7A',
