@@ -30,14 +30,22 @@
         Floor Plan
       </h2>
       <p class="text-base text-gray-700 md:text-lg">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
+Samyak 49 offers you a premium location, a luxurious lifestyle with all utilities, beautiful construction, and numerous other features that distinguish Samyak 49 from the rivals.
+
       </p>
     </div>
 
     <div class="mb-4 transition-shadow duration-300 hover:shadow-xl lg:mb-6 flex">
-      <img class="object-cover w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96" src="@/assets/floor-plan.png" alt="" />
-
+      <img class="object-cover w-full rounded shadow-lg" src="@/assets/floor-plan.jpg" alt="" />
     
+    </div>
+    <div class="flex flex-row flex-wrap md:flex-nowrap">
+      
+      <TableA />
+      <TableB />
+
+
+
     </div>
     <p class="max-w-xl mb-4 text-base text-gray-700 sm:mx-auto">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris aliquip ex ea.
@@ -356,6 +364,9 @@ import UniHead from '../components/UniversalHead.vue'
 import Biwt from '../components/aminities/BuildingImageWithText.vue'
 import Footer from '../components/Footer.vue'
 import AminitiesIcons from '../components/aminities/AminitiesIcons.vue'
+import TableA from '../components/aminities/TableA.vue'
+import TableB from '../components/aminities/TableB.vue'
+
 </script>
 
 <style>

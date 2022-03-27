@@ -11,7 +11,7 @@ The Exquisite Homes
     </h2>
      <BuildingImage/>
   </div>
-    <p class="text-base text-gray-700 md:text-lg mt-4 w-2/3 text-center mx-auto">
+    <p class="text-base text-gray-700 md:text-lg mt-4 md:w-2/3 text-center mx-auto">
 Samyak 49 has brought luxurious apartments in a prime location in navrangpura near CG road with multiple amenities with beautiful construction. Experienced each day at samyak49 with an elevated sense of belonging where each home is designed to be breathtakingly beautiful and offers an exhilaratingly jubilant life.  
     </p>
 
