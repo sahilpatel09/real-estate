@@ -137,14 +137,11 @@ Samyak 49 offers you a premium location, a luxurious lifestyle with all utilitie
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
         </p>
       </div>
-      <div>
-        <a
-          href="/"
-          class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-        >
-          Get started
-        </a>
-      </div>
+      <img
+      class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
+      src="@/assets/floor-plan.png"
+      alt=""
+    />
     </div>
 
 <!--   <div class="absolute inset-x-0 top-0 items-center justify-center hidden overflow-hidden md:flex md:inset-y-0">
