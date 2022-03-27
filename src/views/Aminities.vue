@@ -35,14 +35,14 @@ Samyak 49 offers you a premium location, a luxurious lifestyle with all utilitie
       </p>
     </div>
 
-    <div class="mb-4 transition-shadow mx-auto text-center duration-300 hover:shadow-xl lg:mb-6 flex flex-row items-center justify-center gap-2">
+    <div class="mb-4 mx-auto text-center lg:mb-6 flex flex-col md:flex-row items-center justify-center gap-5">
     
-      <div class="flex flex-col">
-        <h2 class="p-2">Block A</h2>
+      <div class="flex flex-col transition-shadow duration-300 hover:shadow-xl">
+        <h2 class="p-2 text-black text-lg">Block A</h2>
        <img class="object-cover w-full rounded shadow-lg" src="@/assets/floor-plan.jpg" alt="" /> 
       </div>
-      <div class="flex flex-col">
-        <h2 class="p-2">Block B</h2>
+      <div class="flex flex-col transition-shadow duration-300 hover:shadow-xl">
+        <h2 class="p-2 text-black text-lg">Block B</h2>
        <img class="object-cover w-full rounded shadow-lg" src="@/assets/floor-plan.jpg" alt="" /> 
       </div>
 

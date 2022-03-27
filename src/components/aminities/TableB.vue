@@ -96,7 +96,7 @@ const tableData = ref({
     9 :{
     id: '07',
     name: "Master Bedroom 2",
-    size: "11'0'' x 15'0''",
+    size: "11'0'' x 15'0''",  
   },
     10 :{
     id: '7A',
