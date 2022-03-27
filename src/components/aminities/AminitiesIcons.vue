@@ -12,23 +12,22 @@
       </div>
     </div>
   
-  <div class="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+  <div class="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4 items-center">
     
     
 
-    <div v-for="index in 4" :key="index" class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-wine rounded shadow-xl group hover:shadow-2xl">
-      <div class="p-10 bg-red-900 flex flex-col items-center">
-        <div class="flex items-center justify-center p-2 w-24 h-34 rounded mb-4 shadow-2xl drop-shadow bg-blend-multiply">
-          <img src="@/assets/tempale.png" alt="">
+    <div v-for="item in imageData" :key="item" class="flex flex-col justify-between items-center overflow-hidden text-left transition-shadow duration-200 bg-wine rounded shadow-xl group hover:shadow-2xl">
+      <div class="p-5 bg-red-900 flex flex-col items-center">
+        <div class="flex items-center justify-center p-2 w-24 h-24 rounded shadow-2xl drop-shadow bg-blend-multiply">
+          <img :src="item.imgUrl" alt="">
         </div>
-         <p class=" font-bold text-gray-100">Security</p>
+         <p class=" font-bold text-gray-100">{{ item.title }}</p>
          <p class="text-sm leading-5 text-white">
-                  Tempal | 2 min
+                  {{ item.desc }}
                 </p>
       </div>
       <div class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100"></div>
     </div>
-
 
 
 
@@ -41,6 +40,54 @@
 
 
 </template>
+<script setup>
+import { ref } from 'vue';
+//const url = '@/assets/';
+const imageData = ref({
+    0:{
+      title: "Temple",
+      desc: "500m | 4 min walk",
+      imgUrl: require('@/assets/images/temple.png'),
+    },
+    1:{
+      title: "School",
+      desc: "1Km | 4 min",
+      imgUrl: require('@/assets/images/school.png')
+    },
+    2:{
+      title: "Bus Stop",
+      desc: "1Km | 4 min",
+      imgUrl: require('@/assets/images/bus-stop.png')
+    },
+    3:{
+      title: "Airport",
+      desc: "1Km | 4 min",
+      imgUrl: require('@/assets/images/airport.png')
+    },
+    4:{
+      title: "Grocery Store",
+      desc: "1Km | 4 min",
+      imgUrl: require('@/assets/images/grocery.png')
+    },
+    5:{
+      title: "Hospital",
+      desc: "1Km | 4 min",
+      imgUrl: require('@/assets/images/hospital.png')
+    },
+    7:{
+      title: "Railway Station",
+      desc: "1Km | 4 min",
+      imgUrl: require('@/assets/images/railway.png')
+    },
+    8:{
+      title: "Restaurant",
+      desc: "1Km | 4 min",
+      imgUrl: require('@/assets/images/restaurant.png')
+    },
+
+
+});
+</script>
 <style scoped>
 	.bgSmallTab{
 		background: #672a32;
