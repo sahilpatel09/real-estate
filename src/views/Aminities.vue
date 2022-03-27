@@ -35,9 +35,17 @@ Samyak 49 offers you a premium location, a luxurious lifestyle with all utilitie
       </p>
     </div>
 
-    <div class="mb-4 transition-shadow duration-300 hover:shadow-xl lg:mb-6 flex">
-      <img class="object-cover w-full rounded shadow-lg" src="@/assets/floor-plan.jpg" alt="" />
+    <div class="mb-4 transition-shadow mx-auto text-center duration-300 hover:shadow-xl lg:mb-6 flex flex-row items-center justify-center gap-2">
     
+      <div class="flex flex-col">
+        <h2 class="p-2">Block A</h2>
+       <img class="object-cover w-full rounded shadow-lg" src="@/assets/floor-plan.jpg" alt="" /> 
+      </div>
+      <div class="flex flex-col">
+        <h2 class="p-2">Block B</h2>
+       <img class="object-cover w-full rounded shadow-lg" src="@/assets/floor-plan.jpg" alt="" /> 
+      </div>
+
     </div>
     <div class="flex flex-row flex-wrap md:flex-nowrap">
       
@@ -370,5 +378,8 @@ import TableB from '../components/aminities/TableB.vue'
 </script>
 
 <style>
+.box:hover{
+background: rgba(0,0,0,0.4);
 
+}
 </style>
