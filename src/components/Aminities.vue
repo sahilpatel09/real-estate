@@ -21,21 +21,22 @@
 
 
 <section class="text-gray-600 body-font bg-white">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap">
-    <div class="flex w-full mb-20 flex-wrap">
+  <div class="container px-5 py-20 mx-auto flex flex-wrap">
+    <div class="flex w-full md:mb-20 mb-10 flex-wrap">
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
       <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
     </div>
-    <div class="flex flex-wrap md:-m-2 -m-1">
-      <div class="flex md:flex-wrap w-1/2">
 
-        <div class="md:p-2 p-1 w-1/2 image-card relative">
+    <div class="flex flex-wrap md:-m-2 -m-1 flex-col md:flex-row">
+      <div class="flex md:flex-wrap md:flex-row w-full flex-col md:w-1/2">
+
+        <div class="md:p-2 p-1 w-full md:w-1/2 image-card relative">
           <img alt="gallery" class="w-full object-cover h-full object-center block transition duration-300" src="https://img.staticmb.com/mbimages/project/Photo_h310_w462/2020/01/29/Project-Photo-9-Samyak-49-Ahmedabad-5132013_545_1050_310_462.jpg">
           <div class="bottom">Gym Area
           </div>
         </div>
 
-        <div class="md:p-2 p-1 w-1/2 image-card relative">
+        <div class="md:p-2 p-1 w-full md:w-1/2 image-card relative">
           <img alt="gallery" 
           class="w-full object-cover h-full object-center" src="https://is1-3.housingcdn.com/012c1500/00e08a0fed7977a7becd8cbe001fbf7d/v0/medium.jpeg">
           <div class="bottom">Dining
@@ -47,18 +48,19 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-wrap w-1/2">
+
+      <div class="flex flex-wrap w-full md:w-1/2 flex-col md:flex-row">
         <div class="md:p-2 p-1 w-full relative image-card">
           <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://newprojects.99acres.com/projects/unknown/samyak_49/images/gic02wqp_optOrig.jpg">
           <div class="bottom">Dining Area
           </div>
         </div>
-        <div class="md:p-2 p-1 w-1/2 image-card relative">
+        <div class="md:p-2 p-1 w-full md:w-1/2 image-card relative">
           <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://teja12.kuikr.com/is/a/c/880x425/gallery_images/original/cf5d2d658495a7f.gif">
           <div class="bottom">Entrance 
           </div>
         </div>
-        <div class="md:p-2 p-1 w-1/2 image-card relative">
+        <div class="md:p-2 p-1 w-full md:w-1/2 image-card relative">
           <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://is1-2.housingcdn.com/01c16c28/4ab28d8143ddc3f8d194fab77089d61f/v0/medium/3_bhk_apartment-for-sale-navrangpura-Ahmedabad-hall.jpg">
           <div class="bottom">Living Room
           </div>
@@ -136,8 +138,8 @@
 }
 
 .image-card:hover img {
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 .bottom {
   bottom: 8px;
