@@ -15,7 +15,7 @@
     <div class="flex flex-wrap -m-4">
       
 
-      <div class="sm:w-1/2 p-4" v-for="item in galleryData" :key="item">
+      <div class="sm:w-1/2 w-full p-4" v-for="item in galleryData" :key="item">
         <div class="flex relative">
           <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" 
           :src="item.img">
@@ -24,6 +24,21 @@
             <h1 class="title-font text-lg font-medium text-white mb-3 text-center">{{ item.title }}</h1>
 <!--             <p class="leading-relaxed text-white">{{ item.desc }}</p> -->
           </div>
+        </div>
+      </div>
+
+
+<div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl mon text-2xl font-medium title-font mb-4 text-gray-900">Modern Homes for Modern People</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+    </div>
+
+
+      <div class="sm:w-1/2 p-4" v-for="item in videoData" :key="item">
+        <div class="flex relative">
+        
+          <video :src="item.video" autobuffer autoloop loop controls :poster="item.poster" class="inset-0 w-full h-96 object-cover object-center"></video>
+
         </div>
       </div>
 
@@ -118,6 +133,22 @@ const galleryData = ref({
 
 
 });
+
+
+
+const videoData = ref({
+    0:{
+      title: "Homes",
+      video: require('@/assets/homepage.mp4'),
+      poster: require('@/assets/living.jpeg'), 
+    },
+    1:{
+      title: "About",
+      video: require('@/assets/about.mp4'),
+      poster: require('@/assets/blog.jpeg'),
+    }
+    });
+
 </script>
 
 <style scoped>
