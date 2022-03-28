@@ -82,6 +82,16 @@ const imageData = ref({
       desc: "1Km | 4 min",
       imgUrl: require('@/assets/images/restaurant.png')
     },
+    9:{
+      title: "Theater",
+      desc: "1Km | 4 min",
+      imgUrl: require('@/assets/images/theater.png')
+    },
+    10:{
+      title: "City Center",
+      desc: "1Km | 4 min",
+      imgUrl: require('@/assets/images/city-center.png')
+    },
 
 
 });
