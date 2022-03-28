@@ -23,7 +23,7 @@
         <div class="flex items-center justify-center p-2 w-40 h-20 items-center rounded drop-shadow bg-blend-multiply">
           <img :src="item.imgUrl" alt="">
         </div>
-         <p class=" font-bold text-gray-900">{{ item.title }}</p>
+<!--          <p class=" font-bold text-gray-900">{{ item.title }}</p> -->
          <!-- <p class="text-sm leading-5 text-black">
                   {{ item.desc }}
                 </p> -->
