@@ -1,6 +1,5 @@
 <template>
 	<div class="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-  
 <div class="flex flex-col mb-10 sm:text-center sm:mb-0">
             <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -12,12 +11,11 @@
       </div>
     </div>
   
-  <div class="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4 items-center">
+  <div class="relative grid gap-5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 items-center">
     
-    
-
+  
     <div v-for="item in imageData" :key="item" class="flex flex-col justify-between items-center overflow-hidden text-left transition-shadow duration-200 bg-wine rounded shadow-xl group hover:shadow-2xl">
-      <div class="p-5 bg-red-900 flex flex-col items-center">
+      <div class="py-3 flex flex-col items-center">
         <div class="flex items-center justify-center p-2 w-24 h-24 rounded shadow-2xl drop-shadow bg-blend-multiply">
           <img :src="item.imgUrl" alt="">
         </div>
@@ -26,7 +24,7 @@
                   {{ item.desc }}
                 </p>
       </div>
-      <div class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100"></div>
+
     </div>
 
 
