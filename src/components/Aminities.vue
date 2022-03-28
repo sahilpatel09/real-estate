@@ -51,15 +51,42 @@
 </section>
 
 
-<section class="text-gray-600 body-font bg-white">
-  <div class="container px-5 mx-auto">
-    <div class="flex flex-col text-center w-full">
-      <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+
+
+<div class="flex flex-col items-center justify-center max-w-2xl px-4 pt-16 mx-auto sm:max-w-xl md:max-w-2xl lg:pt-32 md:px-8">
+  <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl md:mb-6">
+    <div>
+      <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+        Modern Features
+      </p>
     </div>
+    <h2 class="max-w-lg font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+      <span class="relative inline-block">
+        <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+          <defs>
+            <pattern id="9ef1ff62-feb2-41fe-8163-772b4c79de7b" x="0" y="0" width=".135" height=".30">
+              <circle cx="1" cy="1" r=".7"></circle>
+            </pattern>
+          </defs>
+          <rect fill="url(#9ef1ff62-feb2-41fe-8163-772b4c79de7b)" width="52" height="24"></rect>
+        </svg>
+        <span class="relative">We</span>
+      </span>
+      Use Solar Panels
+    </h2>
   </div>
-</section>
+  <p class="max-w-md text-md text-gray-600 sm:text-md md:text-center">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+  </p>
+  <img src="https://cdn.shopify.com/s/files/1/2980/5140/products/Loomsolar1panelstand_180watts__1.jpg?v=1610514587" class="w-full mx-auto md:w-auto md:max-w-xl" alt="" />
+</div>
+
+
+
+
+
+
+
 
 
 
@@ -67,7 +94,7 @@
 
 <!-- Solar panel -->
 
-<!-- <section class="text-gray-600 body-font bg-white">
+ <section class="text-gray-600 body-font bg-white">
   <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img class="object-cover object-center rounded" alt="hero" src="https://cdn.shopify.com/s/files/1/2980/5140/products/Loomsolar1panelstand_180watts__1.jpg?v=1610514587">
@@ -82,7 +109,7 @@
       </div>
     </div>
   </div>
-</section>-->
+</section>
 
 
 
