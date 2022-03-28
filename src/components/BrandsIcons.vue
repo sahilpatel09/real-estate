@@ -1,6 +1,6 @@
 <template>
 	<div class="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-<div class="flex flex-col mb-10 sm:text-center sm:mb-0">
+<div class="flex flex-col sm:text-center sm:mb-0">
             <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 
     <a href="/" aria-label="View" class="inline-block mb-5 rounded-full sm:mx-auto">
@@ -12,7 +12,6 @@
     <p class="text-base text-gray-700 md:text-lg sm:px-4">
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
     </p>
-    <hr class="w-full my-8 border-gray-300" />
       </div>
     </div>
   

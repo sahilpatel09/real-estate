@@ -43,7 +43,7 @@ Samyak 49 offers you a premium location, a luxurious lifestyle with all utilitie
       </div>
       <div class="flex flex-col transition-shadow duration-300 hover:shadow-xl">
         <h2 class="p-2 text-black text-lg">Block B</h2>
-       <img class="object-cover w-full rounded shadow-lg" src="@/assets/floor-plan.jpg" alt="" /> 
+       <img class="object-cover w-full rounded shadow-lg" src="@/assets/block-b.jpg" alt="" /> 
       </div>
 
     </div>
