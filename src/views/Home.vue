@@ -1,6 +1,7 @@
 <template>
 <Newhead />
 <Aminities />
+
 <AminitiesIcons />
 <BrandsIcons/>
 
@@ -19,31 +20,54 @@
         We have got your back by getting all the najor banks on board for financing the purchase. Financing was never really easy.
       </p>
       <div class="flex items-center">
-        <a
-          href="/"
+        <button
+          @click="this.$store.state.isHidden = !this.$store.state.isHidden"
           class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-wine focus:shadow-outline focus:outline-none"
         >
           Get a Call Back
-        </a>
+        </button>
       </div>
     </div>
   </div>
   <div class="inset-y-0 top-0 right-0 w-full max-w-xl px-4 mx-auto mb-6 md:px-0 lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
-    <img src="@/assets/banks.png" class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-min p-5 shadow-xl lg:h-full" />
+    <img src="https://media.istockphoto.com/photos/financial-advisor-with-indian-family-picture-id1146830235?k=20&m=1146830235&s=612x612&w=0&h=eqjQWVzejEYBVlqnDR4qCccxNBgOq9t0FKfwt0ydAl4=" class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-min p-5 shadow-xl lg:h-full" />
 
 
   </div>
 </div>
 
 
+<Popup @open-popup="popIt" :class="{ 'hidden': this.$store.state.isHidden }"/>
 <Footer/>
 </template>
 
-<script setup>
+<script>
 import Aminities from '../components/Aminities.vue'
 import Newhead from '../components/Header_new.vue'
 import Footer from '../components/Footer.vue'
 import AminitiesIcons from '../components/aminities/AminitiesIcons.vue'
 import BrandsIcons from '../components/BrandsIcons.vue'
+import Popup from '../components/Popup.vue'
+
+export default {
+  name: 'HelloWorld',
+  components:{
+    Aminities,
+    Newhead,Footer,
+    AminitiesIcons,
+    BrandsIcons,
+    Popup
+  },
+  data(){
+    return{
+      isHidden: true
+    };
+  },
+  methods: {
+    popIt() {
+      console.log("This is the event")
+    },
+  }
+}
 
 </script>

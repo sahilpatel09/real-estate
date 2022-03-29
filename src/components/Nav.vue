@@ -82,7 +82,8 @@
           <div class="hidden md:flex items-center space-x-3">
             
             <a
-              href="/download"
+              href="https://drive.google.com/file/d/1ftzOGnEHTOTMRfdA_6SypGNbH1ZQ1Nf4/view?usp=sharing"
+              target="_blank"
               class="
                 py-2
                 px-4
@@ -98,7 +99,7 @@
               >Brochure</a
             >
                         <a
-              href="/inquire-us"
+              href="/contact-us"
               class="
                 py-2
                 px-4

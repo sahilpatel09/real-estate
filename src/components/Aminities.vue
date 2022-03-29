@@ -94,7 +94,7 @@
 
 <!-- Solar panel -->
 
- <section class="text-gray-600 body-font bg-white">
+ <!-- <section class="text-gray-600 body-font bg-white">
   <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img class="object-cover object-center rounded" alt="hero" src="https://cdn.shopify.com/s/files/1/2980/5140/products/Loomsolar1panelstand_180watts__1.jpg?v=1610514587">
@@ -109,7 +109,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 

@@ -13,7 +13,7 @@
           <h1 class="text-5xl md:text-8xl mb-2 font-medium text-white vibes ">Luxurious Living, Redefined.</h1>
           <p class="leading-relaxed mb-8 text-gray-200 lg:w-2/3 mx-auto mon">3 BHK Luxurious apartments near you in Navarangpura. Samyak49 is the one of the modern and nice to decore flats in the Ahmedabad.</p>
           <div class="flex justify-center">
-            <button class="inline-flex text-white bg-wine border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Inquire now</button>
+            <button @click="this.$store.state.isHidden = !this.$store.state.isHidden" class="inline-flex text-white bg-wine border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Inquire now</button>
 <!--             <a href="tel:+918200489230">
             <button class="ml-4 inline-flex text-gray-400 bg-yellow-600 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Call us</button></a> -->
           </div>
