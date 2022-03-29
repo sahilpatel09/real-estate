@@ -28,7 +28,7 @@
       </div>
 
 
-<div class="flex flex-col text-center w-full mb-20">
+<div class="flex flex-col text-center w-full mb-20 mt-6">
       <h1 class="sm:text-3xl mon text-2xl font-medium title-font mb-4 text-gray-900">Modern Homes for Modern People</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
     </div>
@@ -67,47 +67,47 @@ const galleryData = ref({
       img: require('@/assets/images/gallery/bedroom.jpeg'),
     },
     1:{
-      title: "Mitsubishi",
+      title: "Bedroom",
       img: require('@/assets/images/gallery/bedroom-front.jpeg'),
     },
     2:{
-      title: "Mitsubishi",
+      title: "Bedroom Side Profile",
       img: require('@/assets/images/gallery/bedroom-with-tv.jpeg'),
     },
     3:{
-      title: "Mitsubishi",
+      title: "Closet Area",
       img: require('@/assets/images/gallery/bedroom-closet.jpeg'),
     },
     4:{
-      title: "Mitsubishi",
+      title: "Bedroom",
       img: require('@/assets/images/gallery/bedroom-front.jpeg'),
     },
     5:{
-      title: "Mitsubishi",
+      title: "Study Area",
       img: require('@/assets/images/gallery/bedroom-study.jpeg'),
     },
     6:{
-      title: "Mitsubishi",
+      title: "Bedroom 2",
       img: require('@/assets/images/gallery/bedroom-one-side.jpeg'),
     },
     7:{
-      title: "Mitsubishi",
+      title: "Bedroom 2 Profile",
       img: require('@/assets/images/gallery/bedroom-one-profile.jpeg'),
     },
     8:{
-      title: "Mitsubishi",
+      title: "Bedroom 3",
       img: require('@/assets/images/gallery/bedroom-two.jpeg'),
     },
     9:{
-      title: "Mitsubishi",
+      title: "Bedroom 3 Front Profile",
       img: require('@/assets/images/gallery/bedroom-two-front.jpeg'),
     },
     10:{
-      title: "Mitsubishi",
+      title: "Bedroom 3 Side Profile",
       img: require('@/assets/images/gallery/bedroom-two-side.jpeg'),
     },
     11:{
-      title: "Mitsubishi",
+      title: "Dining Area",
       img: require('@/assets/images/gallery/dining-area.jpeg'),
     },
     12:{
@@ -119,11 +119,11 @@ const galleryData = ref({
       img: require('@/assets/images/gallery/living-room.jpeg'),
     },
     14:{
-      title: "Mitsubishi",
+      title: "Living Room",
       img: require('@/assets/images/gallery/living-room-full.jpeg'),
     },
     15:{
-      title: "Living Room",
+      title: "Living Room Full Area",
       img: require('@/assets/images/gallery/living-room-front.jpeg'),
     },
     16:{
