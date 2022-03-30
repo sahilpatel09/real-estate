@@ -6,6 +6,28 @@
 
 <Biwt/>
 
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      
+
+      <div class="p-4 md:w-1/3" v-for="item in specificationData" :key="item">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" :src="item.img" alt="blog">
+          <div class="p-6">
+            <img :src="item.logo" class="w-full h-20 object-cover" alt="">
+            <h1 class="title-font text-lg font-medium text-gray-900 m-1 text-center">{{ item.title }}</h1>
+            <p class="leading-relaxed mb-2 text-center" v-html="item.data">
+            </p>
+          </div>
+        </div>
+      </div>
+
+          
+    </div>
+  </div>
+</section>
+
 
 <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div class="mx-auto sm:text-center lg:max-w-7xl">
@@ -399,7 +421,46 @@ import Footer from '../components/Footer.vue'
 import AminitiesIcons from '../components/aminities/AminitiesIcons.vue'
 import TableA from '../components/aminities/TableA.vue'
 import TableB from '../components/aminities/TableB.vue'
+import { ref } from 'vue'
+const specificationData = ref({
+  0:{
+    img: require('@/assets/contact.png'),
+    logo:require('@/assets/images/brands/qutone.jpeg'),
+    title: "Flooring",
+    data: "Quotone Tiles <br/>1200 X 1200 Vitrified Mirror Polished Tiles"
+  },
+  1:{
+    img: require('@/assets/images/kitchen-area.jpeg'),
+    logo:require('@/assets/images/brands/franke.jpeg'),
+    title: "Kitchen",
+    data: "Franke SS Matt Finish Sink<br/>Kohler Premium Fittings<br/>Granite Platform<br/>Kota stone tack in store room."
+  },
+  2:{
+    img: require('@/assets/images/kitchen-area.jpeg'),
+    logo:require('@/assets/images/brands/franke.jpeg'),
+    title: "Doors & Windows",
+    data: "Franke SS Matt Finish Sink<br/>Kohler Premium Fittings<br/>Granite Platform<br/>Kota stone tack in store room."
+  },
+  3:{
+    img: require('@/assets/images/bathroom.png'),
+    logo:require('@/assets/images/brands/kohler.png'),
+    title: "Bathrooms",
+    data: "Quotone Vitrified Tiles Dado upto Lintel Level<br/>Floor with Anti Skid Tiles "
+  },
+  4:{
+    img: require('@/assets/images/craptree.jpg'),
+    logo:require('@/assets/images/brands/crabtree.jpeg'),
+    title: "Kitchen",
+    data: "CrabTree Universal Type Switches"
+  },
+  5:{
+    img: require('@/assets/images/kitchen-area.jpeg'),
+    logo:require('@/assets/images/brands/franke.jpeg'),
+    title: "Kitchen",
+    data: "Franke SS Matt Finish Sink<br/>Kohler Premium Fittings<br/>Granite Platform<br/>Kota stone tack in store room."
+  },
 
+})
 </script>
 
 <style>
