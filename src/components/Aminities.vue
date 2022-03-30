@@ -4,7 +4,9 @@
   <div class="container px-5 py-20 mx-auto flex flex-wrap">
     <div class="flex w-full md:mb-20 mb-10 flex-wrap">
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4 mon uppercase">About Samyak 49</h1>
-      <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+      <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-black">Samyak49 based in Ahmedabad, is regarded as one of Gujarat&#39;s top construction firms. We build real
+estate projects in the High - End residential property segments, providing favourable returns to
+property speculators, making us one of the best real estate companies to engage in.</p>
     </div>
 
     <div class="flex flex-wrap md:-m-2 -m-1 flex-col md:flex-row">
@@ -75,8 +77,10 @@
       Use Solar Panels
     </h2>
   </div>
-  <p class="max-w-md text-md text-gray-600 sm:text-md md:text-center">
-    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+  <p class="max-w-lg text-md text-gray-600 sm:text-md md:text-center">
+The term &quot;privilege&quot; describes a condition of opulence and elegance. Samyak49 is developed with
+the intent of bringing grandeur in its finest, most basic form, combining elements of vitality, serenity,
+suppleness, and an open-air lifestyle.
   </p>
   <img src="https://cdn.shopify.com/s/files/1/2980/5140/products/Loomsolar1panelstand_180watts__1.jpg?v=1610514587" class="w-full mx-auto md:w-auto md:max-w-xl" alt="" />
 </div>

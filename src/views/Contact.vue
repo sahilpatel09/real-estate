@@ -6,19 +6,19 @@
 
 <section class="text-gray-600 body-font relative">
   <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-    <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-      <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14686.944542478008!2d72.5591935!3d23.0334586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc562d20ed1dbfefc!2sSamyak%2049!5e0!3m2!1sen!2sin!4v1648301524566!5m2!1sen!2sin"></iframe>
+    <div class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 md:p-10 flex items-end justify-start relative w-full">
+      <iframe width="100%" height="100%" class="md:absolute md:h-full h-96 inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14686.944542478008!2d72.5591935!3d23.0334586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc562d20ed1dbfefc!2sSamyak%2049!5e0!3m2!1sen!2sin!4v1648301524566!5m2!1sen!2sin"></iframe>
 
-      <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
-        <div class="lg:w-1/2 px-6">
-          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-          <p class="mt-1">Near Vallabha Dinning Hall Digamber Jain Derasar Lane Girish Coldrink Cross Road, Chimanlal Girdharlal Rd, Navrangpura, Ahmedabad, Gujarat 380009</p>
+      <div class="hidden md:block bg-white relative bg-wine flex flex-wrap py-6 rounded shadow-md">
+        <div class=" px-6">
+          <h2 class="title-font font-semibold text-gray-200 tracking-widest text-xs">ADDRESS</h2>
+          <p class="mt-1 text-white">Near Vallabha Dinning Hall Digamber Jain Derasar Lane Girish Coldrink Cross Road, Chimanlal Girdharlal Rd, Navrangpura, Ahmedabad, Gujarat 380009</p>
         </div>
         <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-          <a class="text-indigo-500 leading-relaxed">info@samyak49.com</a>
-          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-          <p class="leading-relaxed">+91 98253 04692</p>
+          <a class="leading-relaxed text-gray-100">info@samyak49.com</a>
+          <h2 class="title-font font-semibold text-gray-100 tracking-widest text-xs mt-4">PHONE</h2>
+          <p class="leading-relaxed text-white">+91 98253 04692</p>
         </div>
       </div>
     </div>

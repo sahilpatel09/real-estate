@@ -1,7 +1,7 @@
 <template>
 <Newhead />
 <Aminities />
-
+<title>Real-Estate</title>
 <AminitiesIcons />
 <BrandsIcons/>
 
@@ -62,6 +62,16 @@ export default {
     return{
       isHidden: true
     };
+  },
+  head: {
+    title: {
+      inner: 'It will be a pleasure'
+    },
+  },
+  metainfo(){
+    return {
+      title: "Real Estate"
+    }
   },
   methods: {
     popIt() {

@@ -8,8 +8,11 @@
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="sm:text-3xl mon text-2xl font-medium title-font mb-4 text-gray-900">Beautiful Homes, Crafted with Care</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+      <h1 class="sm:text-3xl mon text-2xl font-medium title-font mb-4 text-gray-900">Beautiful and Crafted with Care</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Take a peek at SAMYAK49&#39;s
+development from the ground up. We make every
+effort to present the many stages of our
+development.</p>
     </div>
 
     <div class="flex flex-wrap -m-4">
@@ -30,7 +33,10 @@
 
 <div class="flex flex-col text-center w-full mb-20 mt-6">
       <h1 class="sm:text-3xl mon text-2xl font-medium title-font mb-4 text-gray-900">Modern Homes for Modern People</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Take a peek at SAMYAK49&#39;s
+development from the ground up. We make every
+effort to present the many stages of our
+development.</p>
     </div>
 
 

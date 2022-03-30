@@ -9,8 +9,7 @@
     <h2 class="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
       Associated Brands
     </h2>
-    <p class="text-base text-gray-700 md:text-lg sm:px-4">
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
+    <p class="text-base text-gray-700 md:text-lg sm:px-4">Our skilled architects have developed an outstanding blend of contemporary style with certified luxury.
     </p>
       </div>
     </div>

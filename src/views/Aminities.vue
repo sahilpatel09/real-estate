@@ -91,26 +91,32 @@ Samyak 49 offers you a premium location, a luxurious lifestyle with all utilitie
           Premium Range of Products
         </h2>
         <p class="text-base text-gray-200 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+          The Samyak49 is a project that offers astoundingly promising golden prospects, ample connectivity,
+leisurely and peaceful leisure, long-term sustainability, and complementary financial appreciation.
+The skilled architects have developed an outstanding blend of contemporary style with certified
+luxury.
         </p>
       </div>
       <div class="flex flex-col items-center md:flex-row">
-        <a
-          href="/"
+        <router-link
+          to="/contact-us"
           class="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-indigo-600 hover:bg-indigo-900 focus:shadow-outline focus:outline-none"
         >
-          Know More
-        </a>
+          Contact us
+        </router-link>
       </div>
 
     </div>
   </div>
   <div class="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
-    <img
+    <video 
+    class=" w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
+    src="@/assets/about.mp4" autobuffer autoloop loop controls poster="@/assets/living.jpeg"></video>
+    <!-- <img
       class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
       src="@/assets/providers.jpg"
       alt=""
-    />
+    /> -->
   </div>
 </div>
 
@@ -134,7 +140,8 @@ Samyak 49 offers you a premium location, a luxurious lifestyle with all utilitie
           Ground Plan
         </h2>
         <p class="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
+Samyak 49 offers you a premium location, a luxurious lifestyle with all utilities.
+Check out the Ground plan for the site.
         </p>
       </div>
       <img
@@ -153,6 +160,30 @@ Samyak 49 offers you a premium location, a luxurious lifestyle with all utilitie
       <circle fill-opacity="0.3" fill="currentColor" cx="44" cy="44" r="22.5"></circle>
     </svg>
   </div> -->
+
+
+<div class="flex flex-col mb-16 sm:text-center sm:mb-0 mt-20">
+      
+      <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <span class="relative inline-block">
+            <span class="relative">Our</span>
+          </span>
+          Salient Features
+        </h2>
+        <p class="text-base text-gray-700 md:text-lg">
+Samyak 49 offers you a premium location, a luxurious lifestyle with all utilities.
+Check out the Ground plan for the site.
+        </p>
+      </div>
+      
+    </div>
+
+
+
+
+
+
   
   <div class="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
     
@@ -292,7 +323,7 @@ Samyak 49 offers you a premium location, a luxurious lifestyle with all utilitie
       3D View of The Apartment
     </h2>
     <p class="text-base text-gray-700 md:text-lg">
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
+      To have a better clearity of the apartments, we have build you a 3D view.
     </p>
   </div>
 
@@ -310,25 +341,22 @@ Samyak 49 offers you a premium location, a luxurious lifestyle with all utilitie
 <div class="relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col border-2 shadow-2xl">
   <div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
     <div class="lg:my-10 lg:max-w-lg lg:pr-5">
-      <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-        Brand new
+      <p class="inline-block mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+      Visit us for the inquiry.
       </p>
       <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-        Everything you<br class="hidden md:block" />
-        can imagine
-        <span class="inline-block text-deep-purple-accent-400">is real</span>
+        Reach us.
       </h2>
       <p class="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+We are situated in the heart of the city of the Ahmedabad. Please do visit the location for overlook of the spacious 3BHK high-end living apartments. 
       </p>
       <div class="flex items-center">
-        <a
-          href="/"
+        <router-link
+          to="/contact-us"
           class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-wine focus:shadow-outline focus:outline-none"
         >
-          Get started
-        </a>
-        <a href="/" aria-label="" class="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700">Learn more</a>
+          Contact us
+        </router-link>
       </div>
     </div>
   </div>
